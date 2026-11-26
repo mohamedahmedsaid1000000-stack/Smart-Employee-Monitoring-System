@@ -1,0 +1,44 @@
+
+SMART EMPLOYEE MONITORING SYSTEM
+
+Project Description:
+An AI-powered camera monitoring system
+for employee attendance and workplace time tracking.
+
+MAIN FEATURES:
+
+1. Employee Detection
+   Detect people using YOLO.
+
+2. Employee Tracking
+   Track detected people across video frames.
+
+3. Attendance
+   Detect entry into the company.
+
+4. Work Time
+   Calculate time spent inside assigned desk zones.
+
+5. Break Time
+   Calculate time spent outside desk zones.
+
+6. Finish Work
+   Detect when an employee leaves through
+   the designated exit zone.
+
+7. Confidence
+   Display person detection confidence.
+   Identity confidence will be added
+   in the face recognition module.
+
+TECHNOLOGIES:
+
+Python
+OpenCV
+YOLO
+Computer Vision
+
+IMPORTANT:
+This is an initial prototype.
+Tracking IDs are not permanent employee identities.
+Camera zones must be calibrated.
